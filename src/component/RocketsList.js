@@ -31,7 +31,7 @@ const RocketsList = () => {
               <h3 className="rocket-name">{rocket.name}</h3>
               <p className="description">
                 {' '}
-               
+                {rocket.reserved && <span className="res-span">Reserved</span>}
                 {' '}
                 {rocket.description}
               </p>
