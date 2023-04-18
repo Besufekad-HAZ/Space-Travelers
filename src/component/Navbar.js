@@ -10,7 +10,7 @@ const Navbar = () => (
           Space Travelers Hub
         </div>
         <ul>
-          <li><NavLink to="/">RocketsList</NavLink></li>
+          <li><NavLink to="/">Rockets</NavLink></li>
           <li><NavLink to="/MyProfile">My Profile</NavLink></li>
         </ul>
       </nav>
