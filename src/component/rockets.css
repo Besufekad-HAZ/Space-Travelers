@@ -26,7 +26,7 @@
 
 .reserved-btn {
   background-color: rgb(42, 135, 228);
-  color: #ffffff;
+  color: #fff;
   border-radius: 6px;
 }
 
@@ -51,6 +51,7 @@ button.cancel-btn {
   padding-top: 10px;
   text-align: left;
 }
+
 .res-span {
   background-color: rgb(103, 193, 254);
   padding: 1px 4px;

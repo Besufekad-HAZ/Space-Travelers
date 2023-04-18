@@ -1,3 +1,19 @@
 .table-container {
-    margin-top: 5rem;
+  width: 95%;
+  margin-inline: auto;
+  margin-top: 5rem;
+}
+
+.main-table {
+  border: 2px solid #e7e7e7;
+}
+
+.main-table td,
+.main-table th {
+  border: 2px solid #dfdfdf;
+}
+
+.button-status,
+.button-join {
+  width: 8em;
 }
