@@ -13,7 +13,6 @@
   .space-image {
     width: 30%;
     height: 30%;
-    object-fit: cover;
     padding:10px 10px 10px 0;
   }
   
@@ -32,9 +31,9 @@
   button.cancel-btn {
     background-color: rgb(235, 235, 235);
     color: #121212;
-    outline: 1px solid #121212;
-    border: 1px solid darkslategrey;
+    border: 2px solid darkslategrey;
     border-radius: 2px;
+    padding: 12px 1.5rem;
   }
   
   .rocket-name {
