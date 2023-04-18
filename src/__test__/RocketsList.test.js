@@ -1,5 +1,5 @@
-import rocketsReducer, { fetchRockets, rocketReserved, cancelReservation } from '../redux/rockets/rocketsSlice';
 import { configureStore } from '@reduxjs/toolkit';
+import rocketsReducer, { fetchRockets, rocketReserved, cancelReservation } from '../redux/rockets/rocketsSlice';
 
 describe('rocketsSlice', () => {
   let store;
@@ -13,7 +13,7 @@ describe('rocketsSlice', () => {
 
   it('should get rockets data correctly', async () => {
     const rockets = [{ id: 1, name: 'Falcon 1' }, { id: 2, name: 'Falcon 9' }];
-    const mockResponse = [ ...rockets ];
+    const mockResponse = [...rockets];
     global.fetch = jest.fn(() => Promise.resolve({ json: () => Promise.resolve(mockResponse) }));
 
     await store.dispatch(fetchRockets());
@@ -45,5 +45,4 @@ describe('rocketsSlice', () => {
     const newState = rocketsReducer(initialState, action);
     expect(newState.rockets[0].reserved).toEqual(false);
   });
-
 });
