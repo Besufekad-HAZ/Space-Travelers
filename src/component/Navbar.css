@@ -25,7 +25,7 @@
 
 #nav_header {
   margin-left: 1%;
-  margin-right: 26%;
+  margin-right: auto;
 }
 
 nav ul {
@@ -38,11 +38,19 @@ nav ul {
 
 nav ul li a {
   color: rgb(0, 138, 251);
-  font-size: 1.1rem;
+  font-size: 1.19rem;
   text-decoration: none;
 }
 
 ul a.active {
   text-decoration: underline;
   color: #2266c6;
+}
+
+.line1 {
+  width: 2px;
+  margin-top: .3rem;
+  height: 1.2rem;
+  background-color: var(--light-black);
+  opacity: 0.7;
 }
