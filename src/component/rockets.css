@@ -1,0 +1,59 @@
+.main-wrapper {
+  margin: 6rem 3rem;
+  gap: 1%;
+}
+
+.rock-list {
+  display: flex;
+}
+
+.rock-list li {
+  margin: 0 10px;
+}
+
+.space-image {
+  width: 30%;
+  height: 30%;
+  padding: 10px 10px 10px 0;
+}
+
+.right-panel button {
+  margin-top: 1rem;
+  padding: 10px 18px;
+  outline: none;
+  border: none;
+}
+
+.reserved-btn {
+  background-color: rgb(42, 135, 228);
+  color: #fff;
+  border-radius: 6px;
+}
+
+button.cancel-btn {
+  background-color: rgb(235, 235, 235);
+  color: #121212;
+  border: 2px solid darkslategrey;
+  border-radius: 2px;
+  padding: 12px 1.5rem;
+}
+
+.rocket-name {
+  font-size: 1.5rem;
+  padding-top: 10px;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+}
+
+.description {
+  width: 70%;
+  padding-top: 10px;
+  text-align: left;
+}
+
+.res-span {
+  background-color: rgb(103, 193, 254);
+  padding: 1px 4px;
+  border-radius: 5px;
+}

@@ -1,0 +1,48 @@
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  margin-bottom: 2%;
+}
+
+#icon_logo {
+  width: 55px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.header .logo:hover {
+  color: #0153c5;
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2.5rem;
+}
+
+#nav_header {
+  margin-left: 1%;
+  margin-right: 26%;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+nav ul li a {
+  color: rgb(0, 138, 251);
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+ul a.active {
+  text-decoration: underline;
+  color: #2266c6;
+}

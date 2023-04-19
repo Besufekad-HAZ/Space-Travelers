@@ -10,6 +10,7 @@ const initialState = {
   rockets: [],
   isLoading: false,
   error: false,
+  fetched: false,
 };
 
 const rocketsSlice = createSlice({
@@ -40,10 +41,11 @@ const rocketsSlice = createSlice({
         isLoading: true,
       }))
       .addCase(fetchRockets.fulfilled, (state, action) => {
-        state.rockets = action.payload;
+        if (!state.fetched) {
+          state.rockets = action.payload;
+          state.fetched = true;
+        }
         state.isLoading = false;
-        // ...state,
-        // isLoading: false
       })
       .addCase(fetchRockets.rejected, (state) => ({
         ...state,
