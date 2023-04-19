@@ -1,5 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,300;1,400&family=Poppins:wght@200&family=Roboto+Slab:wght@200;300;400&family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,300;1,400&family=Poppins:wght@200&family=Roboto+Slab:wght@200;300;400&family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap");
+
+:root {
+  --blue: rgb(2, 136, 245);
+  --light-blue: #f3f2f2;
+  --light-black: #313131;
+  --white: #fff;
+  --black: #000;
+  --blue-span: #539afe;
+  --font-one: "Roboto", sans-serif;
+  --font-two: "Roboto Slab", serif;
+  --font-three: "Poppins", sans-serif;
+  --font-four: "Montserrat", sans-serif;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,24 +22,56 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
-  background-color: #f5f5f5;
+  font-family: var(--font-three);
+  background-color: var(--light-blue);
+}
+
+.profile-msg {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--black);
+  font-family: var(--font-four);
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.flex {
+  display: flex;
 }
 
 .myprofile {
-  display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.2rem;
   flex-direction: column;
   padding: 20px;
-  background-color: #fff;
-  margin-top: 1rem;
+  background-color: var(--white);
+  margin-top: 7rem;
+}
+
+.myprofile h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--black);
+  font-family: var(--font-four);
+  padding-bottom: 5px;
 }
 
 .list-profile {
+  justify-content: space-between;
+  font-family: var(--font-three);
+  align-items: center;
   list-style: none;
   width: 25rem;
   padding: 10px;
   text-align: left;
-  border: 1px solid #ccc;
+  border: 1px solid var(--light-blue2);
+}
+
+.profile-btn {
+  border: none;
+  border-radius: 10px;
+  background: none;
 }

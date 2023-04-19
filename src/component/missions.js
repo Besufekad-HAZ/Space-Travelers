@@ -11,8 +11,6 @@ const Mission = (props) => {
   const dispatch = useDispatch();
   const joinButton = () => {
     dispatch(updateMission(id));
-    console.log(id);
-    console.log(isReserved);
   };
   return (
     <>
