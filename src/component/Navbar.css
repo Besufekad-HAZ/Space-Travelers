@@ -23,6 +23,16 @@
   padding: 1rem 2.5rem;
 }
 
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pair {
+  display: flex;
+  width: 60%;
+}
+
 #nav_header {
   margin-left: 1%;
   margin-right: auto;

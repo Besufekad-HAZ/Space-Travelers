@@ -7,8 +7,10 @@ const Navbar = () => (
   <div>
     <header className="header">
       <nav className="nav-bar">
-        <img src={planet} alt="planet" id="icon_logo" />
-        <h2 id="nav_header">Space travelers&apos; Hub</h2>
+        <div className="pair">
+          <img src={planet} alt="planet" id="icon_logo" />
+          <h2 id="nav_header">Space travelers&apos; Hub</h2>
+        </div>
         <ul>
           <li>
             <NavLink to="/">Rockets</NavLink>

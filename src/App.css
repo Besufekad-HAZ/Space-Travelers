@@ -41,11 +41,12 @@ body {
 
 .myprofile {
   justify-content: center;
-  align-items: center;
-  flex-direction: row-reverse;
   font-size: 1.2rem;
+  gap: 10%;
+  flex-direction: row-reverse;
+  padding: 20px 0 0 20px;
   background-color: var(--white);
-  margin-top: 7rem;
+  margin: 8rem 5rem;
 }
 
 .myprofile h3 {
@@ -53,24 +54,43 @@ body {
   font-weight: 600;
   color: var(--black);
   font-family: var(--font-four);
-  padding:2rem 0 5px 2rem;
+  padding: 2rem 0 5px 2rem;
 }
 
 .list-profile {
   justify-content: space-between;
-  font-family: var(--font-two);
+  font-family: var(--font-three);
+  font-weight: 700;
   align-items: center;
   list-style: none;
-  /* width: 30rem; */
   border: 1px solid rgb(202, 201, 201);
   border-radius: 10px 10px 0 0;
 }
 
-.list-wrapper {
+.rockets-profile {
   flex-basis: 50%;
+}
+
+.rockets-profile h3 {
+  margin-top: 0;
+  padding: 0;
 }
 
 .list-profile p {
   padding: 10px 0 0 8px;
   color: var(--light-black);
+}
+
+.list-group {
+  margin-top: 0;
+}
+
+.container h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.profile-list-holder {
+  padding: 0;
+  margin-top: 1rem;
 }

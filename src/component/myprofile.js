@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import { useSelector, useDispatch } from 'react-redux';
 import { RxArrowRight } from 'react-icons/rx';
 import { cancelReservation } from '../redux/rockets/rocketsSlice';
@@ -10,12 +9,16 @@ const MyProfile = () => {
   );
   const dispatch = useDispatch();
   if (rockets.length === 0 && missionsReserved.length === 0) {
-    return <p className="myprofile">No rockets reserved and No Missions Joined!</p>;
+    return (
+      <p className="myprofile">No rockets reserved and No Missions Joined!</p>
+    );
   }
   return (
-    <div className="flex myprofile">
-      <div className="list-wrapper">
-        <h3>My Rockets</h3>
+    <div className="d-flex myprofile">
+      <div className="rockets-profile">
+        <h3>
+          <u>My Rockets</u>
+        </h3>
         <ul className="profile-list-holder">
           {rockets.length === 0 && <li className="list-profile msg">No rockets reserved</li>}
           {rockets.map((rocket) => (
@@ -26,7 +29,7 @@ const MyProfile = () => {
               </p>
               <button
                 type="button"
-                style={{ border: 'none', color: 'var(--blue)' }}
+                style={{ border: 'none', fontWeight: '600', color: 'var(--blue)' }}
                 className="profile-btn cancel-btn"
                 onClick={() => {
                   dispatch(cancelReservation(rocket.id));
@@ -39,7 +42,9 @@ const MyProfile = () => {
         </ul>
       </div>
       <div className="container row col-6">
-        <h3>My Missions</h3>
+        <h3>
+          <u>My Missions</u>
+        </h3>
         <ul className="list-group">
           {missionsReserved.length ? (
             missionsReserved.map((mission) => (
