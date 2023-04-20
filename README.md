@@ -2,7 +2,7 @@
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <h2><b>Space Travelers</b></h2>
+  <h1><b>Space Travelers</b></h1>
   <br/>
 
   <h3><b>README</b></h3>
