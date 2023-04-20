@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import { useSelector, useDispatch } from 'react-redux';
 import { RxArrowRight } from 'react-icons/rx';
 import { cancelReservation } from '../redux/rockets/rocketsSlice';
@@ -20,17 +21,22 @@ const MyProfile = () => {
           <u>My Rockets</u>
         </h3>
         <ul className="profile-list-holder">
+          {rockets.length === 0 && <li className="list-profile msg">No rockets reserved</li>}
           {rockets.map((rocket) => (
             <li key={rocket.id} className="flex list-profile">
-              <p>{rocket.name}</p>
+              <p>
+                <span><RxArrowRight /></span>
+                {rocket.name}
+              </p>
               <button
                 type="button"
+                style={{ border: 'none', color: 'var(--blue)' }}
                 className="profile-btn cancel-btn"
                 onClick={() => {
                   dispatch(cancelReservation(rocket.id));
                 }}
               >
-                Cancel Reservation
+                Cancel
               </button>
             </li>
           ))}
