@@ -6,7 +6,7 @@ import './mission.css';
 
 const Mission = (props) => {
   const {
-    id, name, description, isReserved,
+    name, id, description, isReserved,
   } = props;
   const dispatch = useDispatch();
   const joinButton = () => {

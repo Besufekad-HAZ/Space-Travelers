@@ -13,8 +13,8 @@ function Missions() {
   const missions = useSelector((state) => state.missions);
   const renderMissions = (missionsData) => missionsData.map((mission) => (
     <Mission
-      key={mission.id}
       name={mission.name}
+      key={mission.id}
       id={mission.id}
       description={mission.description}
       isReserved={mission.isReserved}
