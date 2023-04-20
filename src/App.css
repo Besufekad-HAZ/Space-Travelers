@@ -42,9 +42,8 @@ body {
 .myprofile {
   justify-content: center;
   align-items: center;
+  flex-direction: row-reverse;
   font-size: 1.2rem;
-  flex-direction: column;
-  padding: 20px;
   background-color: var(--white);
   margin-top: 7rem;
 }
@@ -54,22 +53,24 @@ body {
   font-weight: 600;
   color: var(--black);
   font-family: var(--font-four);
-  padding-bottom: 5px;
+  padding:2rem 0 5px 2rem;
 }
 
 .list-profile {
   justify-content: space-between;
-  font-family: var(--font-three);
+  font-family: var(--font-two);
   align-items: center;
   list-style: none;
-  width: 25rem;
-  padding: 10px;
-  text-align: left;
-  border: 1px solid var(--light-blue2);
+  /* width: 30rem; */
+  border: 1px solid rgb(202, 201, 201);
+  border-radius: 10px 10px 0 0;
 }
 
-.profile-btn {
-  border: none;
-  border-radius: 10px;
-  background: none;
+.list-wrapper {
+  flex-basis: 50%;
+}
+
+.list-profile p {
+  padding: 10px 0 0 8px;
+  color: var(--light-black);
 }
