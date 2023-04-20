@@ -5,15 +5,62 @@
 }
 
 .main-table {
-  border: 2px solid #e7e7e7;
+  border: 2px solid #e6e4e4;
 }
 
 .main-table td,
 .main-table th {
-  border: 2px solid #dfdfdf;
+  border: 2px solid #e0dddd;
 }
 
 .button-status,
 .button-join {
   width: 8em;
+}
+
+.status {
+  background-color: #727272;
+  border: none;
+  border-radius: 3px;
+  padding: 0.15em 0.45em;
+  color: #fff;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 32%;
+}
+
+.active-button {
+  background-color: #3c7eea;
+  border: none;
+  border-radius: 3px;
+  padding: 0.15em 0.35em;
+  color: #fff;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 32%;
+}
+
+.join {
+  display: block;
+  border: 1px solid #292828;
+  border-radius: 5px;
+  color: #292828;
+  padding: 0.2em;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin-top: 25%;
+  width: 120px;
+}
+
+.leave {
+  display: inline-block;
+  border: 1px solid red;
+  border-radius: 5px;
+  color: #bc0606;
+  padding: 0.2em;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin-top: 25%;
 }
