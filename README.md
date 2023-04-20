@@ -35,9 +35,8 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Bookstore App <a name="about-project"></a>
+# 📖 Space-Travelers <a name="about-project"></a>
 
-A website for organizing daily activities
 
 ["Space-Travelers"] :- "Space Travelers" is a React Group Capstone Project working with the real live data from the SpaceX API. It's a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.
 
