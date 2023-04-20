@@ -7,13 +7,12 @@
 }
 
 :root {
-  --blue: #0153c5;
-  --light-blue: #dfdede;
-  --light-blue2: #d7d7d7;
+  --blue: rgb(2, 136, 245);
+  --light-blue: #f3f2f2;
   --light-black: #313131;
   --white: #fff;
   --black: #000;
-  --blue-span: #4994fc;
+  --blue-span: #539afe;
   --font-one: 'Roboto', sans-serif;
   --font-two: 'Roboto Slab', serif;
   --font-three: 'Poppins', sans-serif;
@@ -46,7 +45,7 @@ body {
   font-size: 1.2rem;
   flex-direction: column;
   padding: 20px;
-  background-color: #fff;
+  background-color: var(--white);
   margin-top: 5rem;
 }
 
@@ -67,4 +66,10 @@ body {
   padding: 10px;
   text-align: left;
   border: 1px solid var(--light-blue2);
+}
+
+.profile-btn {
+  border: none;
+  border-radius: 10px;
+  background: none;
 }
