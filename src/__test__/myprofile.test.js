@@ -5,15 +5,17 @@ import MyProfile from '../component/myprofile';
 import store from '../redux/store';
 import '@testing-library/jest-dom/extend-expect';
 
-it('renders correctly', () => {
-  const tree = renderer
-    .create(
-      <Provider store={store}>
-        <BrowserRouter>
-          <MyProfile />
-        </BrowserRouter>
-      </Provider>,
-    )
-    .toJSON();
-  expect(tree).toMatchSnapshot();
+describe('MyProfile component', () => {
+  it('renders correctly', () => {
+    const tree = renderer
+      .create(
+        <Provider store={store}>
+          <BrowserRouter>
+            <MyProfile />
+          </BrowserRouter>
+        </Provider>,
+      )
+      .toJSON();
+    expect(tree).toMatchSnapshot();
+  });
 });

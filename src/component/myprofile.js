@@ -9,7 +9,7 @@ const MyProfile = () => {
   );
   const dispatch = useDispatch();
   if (rockets.length === 0 && missionsReserved.length === 0) {
-    return <p className="myprofile">No rockets reserved</p>;
+    return <p className="myprofile">No rockets reserved and No Missions Joined!</p>;
   }
   return (
     <div className="flex myprofile">
