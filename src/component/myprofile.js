@@ -1,4 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux';
+import { RxArrowRight } from 'react-icons/rx';
 import { cancelReservation } from '../redux/rockets/rocketsSlice';
 
 const MyProfile = () => {
@@ -37,6 +38,7 @@ const MyProfile = () => {
           {missionsReserved.length ? (
             missionsReserved.map((mission) => (
               <li key={mission.id} className="list-group-item">
+                <RxArrowRight />
                 {mission.name}
               </li>
             ))

@@ -15,10 +15,12 @@
 
 .button-status,
 .button-join {
-  width: 8em;
+  width: 13%;
+  justify-content: center;
+  align-items: center;
 }
 
-.status {
+.not_active {
   background-color: #727272;
   border: none;
   border-radius: 3px;
@@ -30,7 +32,7 @@
   margin-top: 32%;
 }
 
-.active-button {
+.active_btn {
   background-color: #3c7eea;
   border: none;
   border-radius: 3px;
@@ -44,23 +46,30 @@
 
 .join {
   display: block;
-  border: 1px solid #292828;
-  border-radius: 5px;
-  color: #292828;
+  border: 1px solid #0e0c0c;
+  border-radius: 10px;
+  font-family: "lato", sans-serif;
+  font-weight: 600;
+  color: #0b0202;
   padding: 0.2em;
   text-transform: capitalize;
   cursor: pointer;
-  margin-top: 25%;
-  width: 120px;
+  align-self: center;
+  margin: 28% auto;
+  width: 7.5rem;
 }
 
 .leave {
+  font-family: "lato", sans-serif;
+  font-weight: 600;
   display: inline-block;
   border: 1px solid red;
-  border-radius: 5px;
-  color: #bc0606;
-  padding: 0.2em;
+  color: red;
+  border-radius: 10px;
+  padding: 0.23em;
   text-transform: capitalize;
   cursor: pointer;
-  margin-top: 25%;
+  align-self: center;
+  margin: 28% auto;
+  width: 7.5rem;
 }
