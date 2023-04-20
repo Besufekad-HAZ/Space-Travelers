@@ -2,7 +2,6 @@
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="bese_logo.jpg" alt="logo" width="200"  height="auto" />
   <br/>
 
   <h3><b>README</b></h3>
