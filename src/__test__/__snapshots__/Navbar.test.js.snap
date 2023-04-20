@@ -8,16 +8,20 @@ exports[`The Navbar component renders correctly 1`] = `
     <nav
       className="nav-bar"
     >
-      <img
-        alt="planet"
-        id="icon_logo"
-        src="planet.png"
-      />
-      <h2
-        id="nav_header"
+      <div
+        className="pair"
       >
-        Space travelers' Hub
-      </h2>
+        <img
+          alt="planet"
+          id="icon_logo"
+          src="planet.png"
+        />
+        <h2
+          id="nav_header"
+        >
+          Space travelers' Hub
+        </h2>
+      </div>
       <ul>
         <li>
           <a

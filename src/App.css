@@ -41,12 +41,11 @@ body {
 
 .myprofile {
   justify-content: center;
-  /* align-items: center; */
   font-size: 1.2rem;
   gap: 10%;
-  padding: 20px 0 0 10px;
+  padding: 20px 0 0 20px;
   background-color: var(--white);
-  margin-top: 7rem;
+  margin: 8rem 5rem;
 }
 
 .myprofile h3 {

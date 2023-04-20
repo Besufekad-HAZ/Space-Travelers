@@ -1,5 +1,5 @@
-import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
+import { BrowserRouter } from 'react-router-dom';
 import renderer from 'react-test-renderer';
 import Mission from '../component/missions';
 import store from '../redux/store';
