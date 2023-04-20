@@ -114,12 +114,12 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
--A Computer (MAC or PC)
--code editor (VSCode,Atom etc...)
--A browser (Chrome,Mozilla,Safari etc...)
--Version Control System (Git and Github)
--NodeJS (https://nodejs.org/en/)
--React {https://react.dev/}
+- A Computer (MAC or PC)
+- Code editor (VSCode,Atom etc...)
+- A browser (Chrome,Mozilla,Safari etc...)
+- Version Control System (Git and Github)
+- NodeJS (https://nodejs.org/en/)
+- React {https://react.dev/}
 
 ### Setup
 
@@ -132,11 +132,11 @@ git clone git@github.com:Besufekad-HAZ/Space-Travelers.git (SSH)
 
 Install this project with:
 
-npm init
-cd React-Bookstore
-npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
-npm start
+- npm init
+- cd React-Bookstore
+- npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+- npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+- npm start
 
 ### Run tests
 
@@ -216,7 +216,5 @@ If you like this project rate it and give it a star.
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
