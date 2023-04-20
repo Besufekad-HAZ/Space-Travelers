@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import { useSelector, useDispatch } from 'react-redux';
 import { RxArrowRight } from 'react-icons/rx';
 import { cancelReservation } from '../redux/rockets/rocketsSlice';
@@ -30,7 +29,7 @@ const MyProfile = () => {
               </p>
               <button
                 type="button"
-                style={{ border: 'none', color: 'var(--blue)' }}
+                style={{ border: 'none', fontWeight: '600', color: 'var(--blue)' }}
                 className="profile-btn cancel-btn"
                 onClick={() => {
                   dispatch(cancelReservation(rocket.id));

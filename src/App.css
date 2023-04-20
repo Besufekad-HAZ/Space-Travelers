@@ -54,7 +54,7 @@ body {
   font-weight: 600;
   color: var(--black);
   font-family: var(--font-four);
-  padding:2rem 0 5px 2rem;
+  padding: 2rem 0 5px 2rem;
 }
 
 .list-profile {
@@ -63,13 +63,17 @@ body {
   font-weight: 700;
   align-items: center;
   list-style: none;
-  /* width: 30rem; */
   border: 1px solid rgb(202, 201, 201);
   border-radius: 10px 10px 0 0;
 }
 
-.list-wrapper {
+.rockets-profile {
   flex-basis: 50%;
+}
+
+.rockets-profile h3 {
+  margin-top: 0;
+  padding: 0;
 }
 
 .list-profile p {
@@ -84,4 +88,9 @@ body {
 .container h3 {
   padding: 0;
   margin: 0;
+}
+
+.profile-list-holder {
+  padding: 0;
+  margin-top: 1rem;
 }

@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import RocketsList from './component/RocketsList';
