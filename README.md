@@ -4,7 +4,7 @@
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <br/>
 
-  <h3><b>README</b></h3>
+  <h3><b>Space-Travelers</b></h3>
 
 </div>
 
@@ -100,7 +100,7 @@ A website for organizing daily activities
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- N/A yet. It'll be available after final Deployment.
+- [ Live Demo Link ](https://space-traveler-7cjj.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
