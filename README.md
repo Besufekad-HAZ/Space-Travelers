@@ -4,9 +4,6 @@
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <h1><b>Space Travelers</b></h1>
   <br/>
-
-  <h3><b>README</b></h3>
-
 </div>
 
 <!-- TABLE OF CONTENTS -->
