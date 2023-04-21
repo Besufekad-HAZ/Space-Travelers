@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,300;1,400&family=Poppins:wght@200&family=Roboto+Slab:wght@200;300;400&family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap");
+
+:root {
+  --blue: rgb(2, 136, 245);
+  --light-blue: #f3f2f2;
+  --light-black: #313131;
+  --white: #fff;
+  --black: #000;
+  --blue-span: #539afe;
+  --font-one: "Roboto", sans-serif;
+  --font-two: "Roboto Slab", serif;
+  --font-three: "Poppins", sans-serif;
+  --font-four: "Montserrat", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-three);
+  background-color: var(--light-blue);
+}
+
+.profile-msg {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--black);
+  font-family: var(--font-four);
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.myprofile {
+  justify-content: center;
+  font-size: 1.2rem;
+  gap: 10%;
+  flex-direction: row-reverse;
+  padding: 20px 0 0 20px;
+  background-color: var(--white);
+  margin: 8rem 5rem;
+}
+
+.myprofile h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--black);
+  font-family: var(--font-four);
+  padding: 2rem 0 5px 2rem;
+}
+
+.list-profile {
+  justify-content: space-between;
+  font-family: var(--font-three);
+  font-weight: 700;
+  align-items: center;
+  list-style: none;
+  border: 1px solid rgb(202, 201, 201);
+  border-radius: 10px 10px 0 0;
+}
+
+.rockets-profile {
+  flex-basis: 50%;
+}
+
+.rockets-profile h3 {
+  margin-top: 0;
+  padding: 0;
+}
+
+.list-profile p {
+  padding: 10px 0 0 8px;
+  color: var(--light-black);
+}
+
+.list-group {
+  margin-top: 0;
+}
+
+.container h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.profile-list-holder {
+  padding: 0;
+  margin-top: 1rem;
+}

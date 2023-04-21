@@ -1,0 +1,75 @@
+.table-container {
+  width: 95%;
+  margin-inline: auto;
+  margin-top: 8rem;
+}
+
+.main-table {
+  border: 2px solid #e6e4e4;
+}
+
+.main-table td,
+.main-table th {
+  border: 2px solid #e0dddd;
+}
+
+.button-status,
+.button-join {
+  width: 13%;
+  justify-content: center;
+  align-items: center;
+}
+
+.not_active {
+  background-color: #727272;
+  border: none;
+  border-radius: 3px;
+  padding: 0.15em 0.45em;
+  color: #fff;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 32%;
+}
+
+.active_btn {
+  background-color: #3c7eea;
+  border: none;
+  border-radius: 3px;
+  padding: 0.15em 0.35em;
+  color: #fff;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 32%;
+}
+
+.join {
+  display: block;
+  border: 1px solid #0e0c0c;
+  border-radius: 10px;
+  font-family: "lato", sans-serif;
+  font-weight: 600;
+  color: #0b0202;
+  padding: 0.2em;
+  text-transform: capitalize;
+  cursor: pointer;
+  align-self: center;
+  margin: 28% auto;
+  width: 7.5rem;
+}
+
+.leave {
+  font-family: "lato", sans-serif;
+  font-weight: 600;
+  display: inline-block;
+  border: 1px solid red;
+  color: red;
+  border-radius: 10px;
+  padding: 0.23em;
+  text-transform: capitalize;
+  cursor: pointer;
+  align-self: center;
+  margin: 28% auto;
+  width: 7.5rem;
+}
